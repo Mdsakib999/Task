@@ -10,11 +10,11 @@ const App = () => {
           <div className="border-2 px-2 rounded-md mr-8">
             <i class="fa-solid fa-chevron-left"></i>
           </div>
-          <p>
-            My jobs{" "}
+          <p className="text-xl">
+            My jobs
             <span>
-              <i class="fa-solid fa-chevron-right"></i>
-            </span>{" "}
+              <i class="fa-solid fa-chevron-right mx-2"></i>
+            </span>
             Frontend Developer
           </p>
         </div>
@@ -41,7 +41,7 @@ const App = () => {
             </div>
           </div>
 
-          {/* Message */}
+          
         </div>
       </nav>
 
