@@ -1,0 +1,24 @@
+.b{
+  border: 2px solid white;
+}
+
+.box-radius{
+  border-radius: 15px 15px 0 0;
+}
+
+.rot{
+  transform: rotate(-90deg);
+  left: -45px;
+}
+
+
+
+@media only screen and (max-width: 570px) {
+  .box-radius{
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .rot{
+    left: -30px;
+  }
+}
