@@ -10,7 +10,7 @@ const App = () => {
           <div className="border-2 px-2 rounded-md mr-8">
             <i class="fa-solid fa-chevron-left"></i>
           </div>
-          <p className="text-xl">
+          <p className="text-xs lg:text-xl ">
             My jobs
             <span>
               <i class="fa-solid fa-chevron-right mx-2"></i>
@@ -21,12 +21,12 @@ const App = () => {
 
         {/* Right Side */}
         <div className="flex items-center">
-          <span className="px-3 py-2 bg-slate-200 rounded-full mr-6">
-            <i className="far fa-envelope text-green-500 text-2xl"></i>
+          <span className="px-3 py-2 bg-slate-200 rounded-full mr-3 lg:mr-6">
+            <i className="far fa-envelope text-green-500 lg:text-2xl"></i>
           </span>
 
-          <span className="px-3 py-2 bg-slate-200 rounded-full mr-10">
-            <i className="far fa-bell text-green-500 text-2xl"></i>
+          <span className="px-3 py-2 bg-slate-200 rounded-full mr-2 lg:mr-10">
+            <i className="far fa-bell text-green-500 lg:text-2xl"></i>
           </span>
 
           <div className="flex items-center lg:mr-10">
@@ -135,20 +135,19 @@ const App = () => {
           <div className="w-[95%] mx-auto">
             <p className="font-semibold mb-5 ">Suggested Job Description</p>
             <textarea
-              className="border-2 p-2 rounded-md"
+              className="border-2 w-[95%] p-2 rounded-md"
               id="w3review"
               name="w3review"
               rows="20"
-              cols="50"
               placeholder="Response here"
             ></textarea>
           </div>
 
           <div className="mt-5 lg:mt-0">
             <span className="pl-6 font-semibold">
-              JD Rewrite name 001 <i class=" fa-solid fa-chevron-down mr-4"></i>
+              JD Rewrite name 001 <i class=" fa-solid fa-chevron-down mr-2 lg:mr-4"></i>
             </span>
-            <button className="btn btn-outline btn-success rounded-full mx-3 text-green-600">
+            <button className="btn btn-outline btn-success rounded-full lg:mx-3 text-green-600 mx-2">
               Delete
             </button>
             <button className="btn btn-success rounded-full text-white">
